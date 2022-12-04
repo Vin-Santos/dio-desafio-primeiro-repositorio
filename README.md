@@ -13,5 +13,5 @@ Repositório criado para o desafio de projeto da Dio, visando se familiarizar ma
 
 ## Plataforma
 
-Acesse a plataforma da Dio.io clicando [aqui](https://www.dio.me/).
+Acesse a plataforma da Dio.me clicando [aqui](https://www.dio.me/).
 
