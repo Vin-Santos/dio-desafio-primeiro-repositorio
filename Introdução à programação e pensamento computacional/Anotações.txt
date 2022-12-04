@@ -1,0 +1,133 @@
+Resumo teórico:
+
+PENSAMENTO COMPUTACIONAL
+
+0. Habilidades complementares:
+- Raciocínio lógico:
+É algo treinado, não só ensinado
+É uma forma de pensamento estruturado
+Pode ser indução a partir de observaçã
+Pode ser dedução, o inverso de observação
+Pode ser abdução, a partir da conclusão, tira a premissa
+A cascata → Inferência: síntese (abdução e indução), analítica (dedução)
+Aperfeiçoamento: encontrar solução eficiente para otimizar processos
+
+1. Primeiro Pilar: Decomposição
+Tem um grande problema complexo, então o quebramos em outros simples e fáceis. Depois sintetizamos os resultados em um grande resultado, fundindo e reconstruindo-o, assim temos a solução do grande problema.
+Pode ser em ordem sequencial ou paralelo
+
+2. Segundo Pilar: Padrões
+. Modelo
+. Estrutura inalterável
+. Repetição
+Porque determinamos padrões? Para generalizar, com o objetivo de ter a resolução de problemas diferentes.
+Nós fazemos por grau de similaridades, o computador faz por comparação direta.
+
+3. Terceiro Pilar: Abstração
+Processo intelectual de isolamento de um objetivo da realidade. Basicamente, abstrair é generalizar.
+. Características
+. Pontos essenciais
+. Generilazar x detalhar
+Usamos em: cluster, árvore, lista, grafos... Máquina de estado e linguagem de programação também são.
+
+4. Quatro Pilar: Algoritmos
+Programas são instruções passo a passo para o programa realizar. Algoritmos devem ser entendidos por humanos e máquinas.
+Exemplos: preparar sanduíche, trocar lâmpada, receita, trajeto pro trabalho.
+Como construir?
+. Compreender o problema
+. Definir dados
+. Definir procedimento
+. Definir dados de saída
+. Método de contrução
+. Testes e diagnósticos
+Dentro temos:
+. Narrativa (língua nativa)
+. Fluxograma (estrutura gráfica com símbolos já definidos)
+. Pseudocódigo (portugol)
+
+5. Estudo de caso conceitual:
+Sobreviver perdido na floresta: precisa de água, comida e abrigo (decompondo). Água pode ser pega da chuva e purificada, comida pode ser caçada e cozinhada, e lugar quente pode ser conseguido usando fogueira (preciso de fogo pra os três casos). Depois de recompor em partes menores, achamos o padrão do fogo e abstraimos um lugar pra morar. Agora separamos cada um em "algoritmos"/passo a passo.
+
+
+
+INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO
+
+0. O que é lógica?
+"Organização e planejamento das instruções, assertivas em um algoritmo, afim de viabilizar a implementação de um programa."
+
+1. Técnicas de lógica de programação (exemplos teórico)
+Técnica liner : Acordar, descer a escada, esquentar café e sentar no sofá.
+Técnico estruturada : Acordar descer a escada, fazer café ou suco e sentar no sofá.
+Técnica modular : Modulo preparar para acordar - tirar tapa olho, sentar na cama e ir em direção a escada; Módulo preparar bebida - detalhamento de cada bebida; Módulo tomar café - detalhamento dos passos pra beber um café.
+
+
+
+FUNDAMENTOS DE ALGORITMO
+
+0. Tipologia e variáveis
+Tipos — Numéricos (inteiros, reais...);  Caractere (tudo);  Lógico (True:1, False:2);
+Variáveis — Pode assumir qualquer valor, mas só do mesmo tipo definido. Deve ter nome com sentido, sem espaço em branco, sem nome reservado. Variáveis poden mudar, constantes são fixas (pode estar em uma variável)
+
+1. Instruções primitivas
+São instruções que vão processar e executar os dados. Operadores (+-↑×÷)
+Conceito de entrada e saída: algo pego do diretório vai pro código e sai mostrando pro usuário.
+Estruturas condicionais e operadores
+Condicional simples (if). Composta (if, else). Encadeada (if, elif (if, else), else). Verifica T or F.
+Operador lógico
+And: será falso se for um ou outro
+Or: se uma é verdadeira, será verdadeiro
+Not: o resultado é o inverso, uma verdadeira vira falso e vice-versa.
+
+2. Estruturas de repetição
+Laço, controle de fluxo, malhas de repetição... Têm condição de parada.
+Enquanto... faça (não sei quando acabo)
+Repita... até (exemplo de achar artigo, repita até achar)
+Para... de... até (tem início e fim definido)
+Pode usar estrutura condicional dentro de estrutura de repetição.
+
+3. Vetores e matrizes...
+Vetor é sequência de dados, de tipos de dados, é uma variável de tamanho pré fixado. (É uma matriz unidimensional)
+Vetor [15]
+Matriz é uma tabela em linhas e colunas N por N (horizontal e vertical)
+Matriz [6] [6]
+Tem outras estruturas com outros fins além de vetor e matriz como: pilha, lista, grafo, árvore...
+
+4. O que são funções?
+Outros nomes: sub-rotina, Bloco, Subprograma, subalgoritmo
+São blocos de instruções que realizam tarefas específicas (vem da ideia de modular). São identificadas por nomes e parâmetros.
+Variáveis locais (variáveis criadas dentro de uma função) são "destruídas" assim que a função retorna um resultado.
+
+5. Instruções de entrada/saída
+Entrada: Recebimento de informações do mundo real pelo teclado ou mouse através de inserção.
+Saída: A impressão de dados abstratos para o mundo real, pela tela, ou salvando um arquivo, saída de som.
+Há saídas não programadas (problema de sintaxe, problema de interface e tals) e as saídas programadas normalmente.
+
+
+LINGUAGENS DE PROGRAMAÇÃO
+
+0. Introdução à linguagens de programação
+O hardware limita a capacidade do software, o software sempre vem depois na "evolução".
+A primeira linguagem surgiu em 49, sendo a linguagem de máquina Assembly. Em cerca de 1950 surgiram as linguagens de programação, como Fortran, depois C etc. Na década de 90 vieram Python, js, Java, Ruby, e assim vai...
+Uma linguagem de programação são método padronizado compostos por regras sintáticas e semânticas implementas no código fonte.
+O código fonte pode ser traduzido ou interpretado.
+
+1. Como um computador entende o programa?
+A tradução é feita através da compilação, pelo compilador, transformando a linguagem de programação em linguagem de baixo nível, também chamado "programa objeto". Na interpretação o programa roda diretamente e "mais lento". Tem também a transpiração, é o processo de transformar uma linguagem de alto nível, para outra também de alto nível.
+
+2. Características de um programa:
+Legibilidade (leitura, coerência, compreensão);
+Redigibilidade (ser de fácil escrita, mas atenção, pode conflitar com legibilidade);
+Confiabilidade (fazer o que foi proposto a fazer);
+Custo (treinamento, codificação, infraestrutura)
+Outras características: Atualizações, disponibilidade de ferramentas, uso para IA, comunidade ativa e adoção pelo mercado.
+
+3. Análise de código
+Análise Léxica (lê o programa por cada caractere e elimina o que for desnecessário);
+Análise Sintática (lê e procura por correção na estrutura da linguagem);
+Análise Semântica (corrige se o significado está correto, a lógica)
+
+4. Paradigmas de programação
+Orientação a objetos, funcional, procedural, estruturado, computação distribuída, lógico...
+Os mais utilizados são:
+Estruturado: focado em sequência, decisão e interação. Utilizado por programas simples e diretos.
+Orientado a objeto: analógo ao mundo real.
