@@ -4,7 +4,7 @@ const vinicius = {
     idade: 19,
     
     descrever: function () {
-        console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}');
+        console.log('Meu nome é ' + this.nome + ' e minha idade é ' + this.idade);
     }
 }
 
@@ -42,7 +42,7 @@ class Pessoa {
     }
     
     descrever() {
-        console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}');
+        console.log('Meu nome é ' + this.nome + ' e minha idade é ' + this.idade);
     }
 }
 
@@ -59,11 +59,11 @@ console.log(joao);
 
 function compararPessoas(pessoa1, pessoa2) {
     if (pessoa1.idade > pessoa2.idade){
-        console.log('${pessoa1.nome} é mais velho(a)');
+        console.log(pessoa1.nome + ' é mais velho(a)');
     } else if (pessoa2.idade > pessoa1.idade) {
-        console.log('${pessoa2.nome} é mais velho(a)');
+        console.log(pessoa2.nome + ' é mais velho(a)');
     } else {
-        console.log('${pessoa1.nome} e ${pessoa2.nome} têm a mesma idade');
+        console.log(pessoa1.nome + ' e ' + pessoa2.nome + ' têm a mesma idade');
     }
 }
 
@@ -71,30 +71,4 @@ const vitor = new Pessoa('Vitor', 25);
 const renan = new Pessoa('Renan', 30);
 
 compararPessoas(vitor, renan);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
